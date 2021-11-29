@@ -1,8 +1,8 @@
  <?php
  function pubMqtt($topic,$msg){
        $APPID= "FixitCenter/"; //enter your appid
-     $KEY = "0ZcxhUOlSSrdtMt"; //enter your key
-    $SECRET = "JS9MqcQ2QyuujStrl7Y7Nqim2"; //enter your secret
+     $KEY = "DSaMBC1J6FOMNkd"; //enter your key
+    $SECRET = "BvlU4QrJUXhhBQ1"; //enter your secret
     $Topic = "$topic"; 
       put("https://api.netpie.io/microgear/".$APPID.$Topic."?retain&auth=".$KEY.":".$SECRET,$msg);
  
